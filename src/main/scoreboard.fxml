@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="487.0" prefWidth="472.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Scoreboard">
+   <children>
+      <ImageView fitHeight="506.0" fitWidth="504.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../manabe/Pacman2x2-Brick-lightblue_1024x.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="136.0" prefHeight="62.0" prefWidth="231.0" text="Scoreboard" textFill="#ff55b2">
+         <font>
+            <Font name="Showcard Gothic" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="351.0" layoutY="425.0" mnemonicParsing="false" onAction="#backButtonOnAction" prefHeight="34.0" prefWidth="122.0" text="Back" textFill="#43768e">
+         <font>
+            <Font name="Comic Sans MS" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
